@@ -358,7 +358,7 @@ function setLanguage(lang){
 }
 
 document.getElementById('langSelect').addEventListener('change', e=>setLanguage(e.target.value));
-setLanguage('it'); // lingua iniziale
+setLanguage('en'); // lingua iniziale
 function toggleTheme(){document.body.classList.toggle('theme-light');document.body.classList.toggle('theme-dark');}
 function openMobile(){const m=document.getElementById('mobileMenu');m.style.display=(m.style.display==='flex'?'none':'flex');}
 const swiper=new Swiper('.swiper',{slidesPerView:1.05,spaceBetween:18,loop:true,centeredSlides:true,pagination:{el:'.swiper-pagination',clickable:true},breakpoints:{640:{slidesPerView:2.05},1024:{slidesPerView:3.05}}});
